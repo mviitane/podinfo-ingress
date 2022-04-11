@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: podinfo.13.51.167.148.nip.io
+  - host: $PODINFO_INGRESS_HOST
     http:
       paths:
       - path: /
